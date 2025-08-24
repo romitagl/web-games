@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Word Association Challenge - Learn new words through interactive vocabulary games">
+    <meta name="keywords" content="vocabulary, word game, learning, education, english">
+    <meta name="author" content="Web Games Collection">
+    <meta name="theme-color" content="#646cff">
+
+    <!-- iOS specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Word Challenge">
+
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Word Association Challenge">
+    <meta property="og:description" content="Improve your vocabulary with fun interactive word games">
+    <meta property="og:type" content="website">
+
+    <title>Word Association Challenge - Interactive Vocabulary Game</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+</head>
+
+<body>
+    <!-- Loading indicator -->
+    <div id="loading" class="loading" style="display: none;">
+        <div class="spinner"></div>
+        <span class="sr-only">Loading next word...</span>
+    </div>
+
+    <!-- Main game container -->
+    <div class="game-container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Word Challenge</h1>
+            <p class="subtitle">Test your vocabulary knowledge and learn new words</p>
+        </header>
+
+        <!-- Difficulty selector -->
+        <section class="difficulty-selector-wrapper" role="group" aria-label="Difficulty selection">
+            <div class="difficulty-label">Difficulty:</div>
+            <div class="difficulty-selector">
+                <button class="difficulty-btn active" data-level="easy" aria-pressed="true">
+                    <span class="sr-only">Select </span>Easy
+                </button>
+                <button class="difficulty-btn" data-level="medium" aria-pressed="false">
+                    <span class="sr-only">Select </span>Medium
+                </button>
+                <button class="difficulty-btn" data-level="hard" aria-pressed="false">
+                    <span class="sr-only">Select </span>Hard
+                </button>
+            </div>
+        </section>
+
+        <!-- Category selector -->
+        <section class="category-selector">
+            <div class="category-wrapper">
+                <label for="categorySelector" class="category-label">Category:</label>
+                <select id="categorySelector" aria-label="Word category">
+                    <option value="general">General Vocabulary</option>
+                    <option value="academic">Academic Terms</option>
+                    <option value="business">Business Language</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Game statistics -->
+        <section class="stats" role="region" aria-label="Game statistics">
+            <div class="stat">
+                <div class="stat-value" id="score" aria-label="Current score">0</div>
+                <div class="stat-label">Score</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="streak" aria-label="Current streak">0</div>
+                <div class="stat-label">Streak</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="level" aria-label="Current level">1</div>
+                <div class="stat-label">Level</div>
+            </div>
+        </section>
+
+        <!-- Timer -->
+        <section class="timer-section" role="region" aria-label="Timer">
+            <div class="timer">
+                <div class="timer-circle">
+                    <svg class="timer-circle">
+                        <circle id="timerProgress" class="timer-progress" cx="50" cy="50" r="45"
+                            stroke-dasharray="282.7" stroke-dashoffset="0">
+                        </circle>
+                    </svg>
+                    <div class="timer-text" id="timerText" aria-label="Time remaining">30</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Word display card -->
+        <section class="word-card" role="region" aria-label="Current word">
+            <div class="word" id="currentWord" aria-label="Word to define">Loading...</div>
+            <div class="pronunciation" id="pronunciation" aria-label="Pronunciation guide">/ˈloʊ.dɪŋ/</div>
+        </section>
+
+        <!-- Answer options -->
+        <section class="options" id="options" role="group" aria-label="Definition options">
+            <!-- Options will be dynamically inserted here -->
+        </section>
+
+        <!-- Feedback message -->
+        <div class="feedback" id="feedback" role="alert" aria-live="polite">
+            <!-- Feedback will be dynamically inserted here -->
+        </div>
+
+        <!-- Next word button -->
+        <button class="btn" id="nextBtn" style="display: none;">
+            Next Word
+            <span class="sr-only"> - Continue to next vocabulary word</span>
+        </button>
+
+        <!-- Play again button -->
+        <button class="btn success" id="playAgainBtn" style="display: none;">
+            🎮 Play Again
+            <span class="sr-only"> - Start a new game</span>
+        </button>
+
+        <!-- Game end section -->
+        <div class="game-end" id="gameEnd">
+            <h3>🎉 Congratulations!</h3>
+            <p id="gameEndMessage">You've completed all words in this category!</p>
+        </div>
+
+        <!-- Action buttons -->
+        <footer class="action-buttons">
+            <button class="action-btn" id="progressBtn" aria-label="View progress statistics">
+                📊 Progress
+            </button>
+            <button class="action-btn" id="resetBtn" aria-label="Reset all progress">
+                🔄 Reset
+            </button>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/storage.js"></script>
+    <script src="./js/words.js"></script>
+    <script src="./js/game.js"></script>
+
+    <!-- Performance monitoring and error handling -->
+    <script>
+        // Performance monitoring
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                if (performance.getEntriesByType) {
+                    const navigation = performance.getEntriesByType('navigation')[0];
+                    if (navigation) {
+                        console.log(`Page load time: ${Math.round(navigation.loadEventEnd - navigation.fetchStart)}ms`);
+                    }
+                }
+            }, 100);
+        });
+
+        // Add viewport height fix for mobile browsers
+        function setViewportHeight() {
+            const vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+
+        // Set initial viewport height
+        setViewportHeight();
+
+        // Update on resize and orientation change
+        window.addEventListener('resize', setViewportHeight);
+        window.addEventListener('orientationchange', () => {
+            setTimeout(setViewportHeight, 100);
+        });
+    </script>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Word Association Challenge",
+        "description": "Interactive vocabulary learning game to improve English word knowledge with multiple difficulty levels",
+        "applicationCategory": "EducationApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "keywords": "vocabulary game, word association, english learning, educational game, vocabulary builder",
+        "genre": "Educational Game",
+        "educationalUse": "Vocabulary Building",
+        "learningResourceType": "Game"
+    }
+    </script>
+</body>
+
+</html>

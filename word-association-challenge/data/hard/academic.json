@@ -1,0 +1,56 @@
+{
+  "category": "academic",
+  "difficulty": "hard",
+  "words": [
+    {
+      "word": "Hypothesis",
+      "pronunciation": "/haɪˈpɒθ.ə.sɪs/",
+      "correct_definition": "A testable idea or explanation for an observation",
+      "incorrect_options": [
+        "A law that never changes",
+        "A proven scientific fact",
+        "A short summary of data"
+      ]
+    },
+    {
+      "word": "Correlation",
+      "pronunciation": "/ˌkɒr.əˈleɪ.ʃən/",
+      "correct_definition": "A connection or relationship between two things",
+      "incorrect_options": [
+        "A random event without cause",
+        "A mistake in calculation",
+        "A disagreement between people"
+      ]
+    },
+    {
+      "word": "Contradict",
+      "pronunciation": "/ˌkɒn.trəˈdɪkt/",
+      "correct_definition": "To state the opposite of something said",
+      "incorrect_options": [
+        "To strongly support an idea",
+        "To carefully explain in detail",
+        "To write down notes quickly"
+      ]
+    },
+    {
+      "word": "Paradigm",
+      "pronunciation": "/ˈpær.ə.daɪm/",
+      "correct_definition": "A model or example used for understanding",
+      "incorrect_options": [
+        "An error in reasoning",
+        "A short scientific paper",
+        "A question with no answer"
+      ]
+    },
+    {
+      "word": "Synthesize",
+      "pronunciation": "/ˈsɪn.θə.saɪz/",
+      "correct_definition": "To combine different ideas into one whole",
+      "incorrect_options": [
+        "To separate things completely",
+        "To memorize facts exactly",
+        "To reject an idea quickly"
+      ]
+    }
+  ]
+}

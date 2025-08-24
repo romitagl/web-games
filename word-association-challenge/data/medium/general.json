@@ -1,0 +1,206 @@
+{
+  "category": "general",
+  "difficulty": "medium",
+  "words": [
+    {
+      "word": "Reluctant",
+      "pronunciation": "/rɪˈlʌk.tənt/",
+      "correct_definition": "Unwilling or hesitant to do something",
+      "incorrect_options": [
+        "Eager and excited to begin",
+        "Always ready to help immediately",
+        "Unable to understand instructions"
+      ]
+    },
+    {
+      "word": "Admire",
+      "pronunciation": "/ədˈmaɪər/",
+      "correct_definition": "To respect or look up to someone",
+      "incorrect_options": [
+        "To dislike someone strongly",
+        "To forget someone completely",
+        "To compete against someone"
+      ]
+    },
+    {
+      "word": "Sincere",
+      "pronunciation": "/sɪnˈsɪər/",
+      "correct_definition": "Genuine and honest in feelings or actions",
+      "incorrect_options": [
+        "Always pretending to be nice",
+        "Easily distracted by others",
+        "Quick to get angry"
+      ]
+    },
+    {
+      "word": "Cautious",
+      "pronunciation": "/ˈkɔː.ʃəs/",
+      "correct_definition": "Careful to avoid danger or mistakes",
+      "incorrect_options": [
+        "Acting quickly without thinking",
+        "Brave in dangerous situations",
+        "Always helpful to others"
+      ]
+    },
+    {
+      "word": "Ambitious",
+      "pronunciation": "/æmˈbɪʃ.əs/",
+      "correct_definition": "Having a strong desire to succeed",
+      "incorrect_options": [
+        "Not caring about success",
+        "Always tired and lazy",
+        "Worried about small problems"
+      ]
+    },
+    {
+      "word": "Distract",
+      "pronunciation": "/dɪˈstrækt/",
+      "correct_definition": "To take someone’s attention away",
+      "incorrect_options": [
+        "To make someone more focused",
+        "To help someone remember",
+        "To encourage someone to speak"
+      ]
+    },
+    {
+      "word": "Polish",
+      "pronunciation": "/ˈpɒl.ɪʃ/",
+      "correct_definition": "To make something smooth and shiny",
+      "incorrect_options": [
+        "To break something into pieces",
+        "To hide something from view",
+        "To create something new"
+      ]
+    },
+    {
+      "word": "Grateful",
+      "pronunciation": "/ˈɡreɪt.fəl/",
+      "correct_definition": "Feeling thankful for something",
+      "incorrect_options": [
+        "Feeling annoyed at someone",
+        "Always worrying about the future",
+        "Feeling nervous and shy"
+      ]
+    },
+    {
+      "word": "Persuade",
+      "pronunciation": "/pəˈsweɪd/",
+      "correct_definition": "To convince someone to do or believe something",
+      "incorrect_options": [
+        "To argue without reason",
+        "To change someone’s name",
+        "To copy someone’s work"
+      ]
+    },
+    {
+      "word": "Steady",
+      "pronunciation": "/ˈsted.i/",
+      "correct_definition": "Firm, stable, and not changing suddenly",
+      "incorrect_options": [
+        "Easily broken or weak",
+        "Always moving quickly",
+        "Very confusing or unclear"
+      ]
+    },
+    {
+      "word": "Relieve",
+      "pronunciation": "/rɪˈliːv/",
+      "correct_definition": "To reduce pain, stress, or worry",
+      "incorrect_options": [
+        "To cause pain or stress",
+        "To remember something clearly",
+        "To ignore someone completely"
+      ]
+    },
+    {
+      "word": "Predict",
+      "pronunciation": "/prɪˈdɪkt/",
+      "correct_definition": "To say what will happen in the future",
+      "incorrect_options": [
+        "To explain what happened in the past",
+        "To hide important information",
+        "To refuse to give an opinion"
+      ]
+    },
+    {
+      "word": "Delightful",
+      "pronunciation": "/dɪˈlaɪt.fəl/",
+      "correct_definition": "Very pleasant and enjoyable",
+      "incorrect_options": [
+        "Boring and uninteresting",
+        "Difficult and confusing",
+        "Sad and unpleasant"
+      ]
+    },
+    {
+      "word": "Expand",
+      "pronunciation": "/ɪkˈspænd/",
+      "correct_definition": "To become larger or make something larger",
+      "incorrect_options": [
+        "To make something smaller",
+        "To keep something hidden",
+        "To destroy something completely"
+      ]
+    },
+    {
+      "word": "Interrupt",
+      "pronunciation": "/ˌɪn.təˈrʌpt/",
+      "correct_definition": "To stop someone while they are speaking or doing something",
+      "incorrect_options": [
+        "To encourage someone to continue",
+        "To quietly agree with someone",
+        "To repeat what someone said"
+      ]
+    },
+    {
+      "word": "Proud",
+      "pronunciation": "/praʊd/",
+      "correct_definition": "Feeling pleased about your own or others’ success",
+      "incorrect_options": [
+        "Feeling ashamed of mistakes",
+        "Worried about failure",
+        "Jealous of others’ success"
+      ]
+    },
+    {
+      "word": "Escape",
+      "pronunciation": "/ɪˈskeɪp/",
+      "correct_definition": "To get away from a dangerous or unpleasant situation",
+      "incorrect_options": [
+        "To face a problem directly",
+        "To hide something from others",
+        "To continue doing the same thing"
+      ]
+    },
+    {
+      "word": "Enormous",
+      "pronunciation": "/ɪˈnɔː.məs/",
+      "correct_definition": "Very large in size or amount",
+      "incorrect_options": [
+        "Extremely small",
+        "Not important",
+        "Easy to carry"
+      ]
+    },
+    {
+      "word": "Encourage",
+      "pronunciation": "/ɪnˈkʌr.ɪdʒ/",
+      "correct_definition": "To give someone confidence or support",
+      "incorrect_options": [
+        "To stop someone from trying",
+        "To make someone nervous",
+        "To ignore someone’s efforts"
+      ]
+    },
+    {
+      "word": "Familiar",
+      "pronunciation": "/fəˈmɪl.i.ər/",
+      "correct_definition": "Well known because it is often seen or experienced",
+      "incorrect_options": [
+        "Strange and unknown",
+        "Very old and rare",
+        "Completely hidden"
+      ]
+    }
+  ]
+}

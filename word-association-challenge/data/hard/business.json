@@ -1,0 +1,56 @@
+{
+  "category": "business",
+  "difficulty": "hard",
+  "words": [
+    {
+      "word": "Entrepreneur",
+      "pronunciation": "/ˌɒn.trə.prəˈnɜːr/",
+      "correct_definition": "A person who starts and manages a business",
+      "incorrect_options": [
+        "A worker in a large company",
+        "A customer who buys products",
+        "An accountant who checks money"
+      ]
+    },
+    {
+      "word": "Merger",
+      "pronunciation": "/ˈmɜː.dʒər/",
+      "correct_definition": "When two companies join to form one",
+      "incorrect_options": [
+        "A disagreement between businesses",
+        "A company losing money",
+        "A worker being promoted"
+      ]
+    },
+    {
+      "word": "Monopoly",
+      "pronunciation": "/məˈnɒp.əl.i/",
+      "correct_definition": "Complete control of a product or service in the market",
+      "incorrect_options": [
+        "Fair competition between companies",
+        "A government tax on goods",
+        "A small business with few customers"
+      ]
+    },
+    {
+      "word": "Diversify",
+      "pronunciation": "/daɪˈvɜː.sɪ.faɪ/",
+      "correct_definition": "To add new products or areas of business",
+      "incorrect_options": [
+        "To close a business permanently",
+        "To reduce workers in a company",
+        "To repeat the same process"
+      ]
+    },
+    {
+      "word": "Liability",
+      "pronunciation": "/ˌlaɪ.əˈbɪl.ɪ.ti/",
+      "correct_definition": "A company’s legal responsibility, usually for debt",
+      "incorrect_options": [
+        "A company’s main source of income",
+        "The profit earned each year",
+        "A manager’s decision-making style"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "category": "general",
+  "difficulty": "hard",
+  "words": [
+    {
+      "word": "Ephemeral",
+      "pronunciation": "/ɪˈfem.ər.əl/",
+      "correct_definition": "Lasting for a very short time",
+      "incorrect_options": [
+        "Existing forever without change",
+        "Difficult to destroy or damage",
+        "Extremely valuable and rare"
+      ]
+    },
+    {
+      "word": "Obstinate",
+      "pronunciation": "/ˈɒb.stɪ.nət/",
+      "correct_definition": "Stubbornly refusing to change one’s opinion",
+      "incorrect_options": [
+        "Always eager to help others",
+        "Quick to learn and adapt",
+        "Easily frightened by small things"
+      ]
+    },
+    {
+      "word": "Ambiguous",
+      "pronunciation": "/æmˈbɪɡ.ju.əs/",
+      "correct_definition": "Open to more than one interpretation",
+      "incorrect_options": [
+        "Clear and easy to understand",
+        "Always false or misleading",
+        "Completely unimportant"
+      ]
+    },
+    {
+      "word": "Meticulous",
+      "pronunciation": "/məˈtɪk.ju.ləs/",
+      "correct_definition": "Showing great attention to detail",
+      "incorrect_options": [
+        "Careless and disorganized",
+        "Quick and impatient",
+        "Creative but unrealistic"
+      ]
+    },
+    {
+      "word": "Resilient",
+      "pronunciation": "/rɪˈzɪl.jənt/",
+      "correct_definition": "Able to recover quickly from difficulties",
+      "incorrect_options": [
+        "Always avoiding challenges",
+        "Easily distracted by others",
+        "Afraid of sudden changes"
+      ]
+    },
+    {
+      "word": "Ubiquitous",
+      "pronunciation": "/juːˈbɪk.wɪ.təs/",
+      "correct_definition": "Present everywhere at the same time",
+      "incorrect_options": [
+        "Extremely rare and unique",
+        "Completely invisible to the eye",
+        "Existing only in the past"
+      ]
+    },
+    {
+      "word": "Pragmatic",
+      "pronunciation": "/præɡˈmæt.ɪk/",
+      "correct_definition": "Dealing with problems in a practical way",
+      "incorrect_options": [
+        "Always thinking about the future only",
+        "Focused only on emotions",
+        "Extremely theoretical and abstract"
+      ]
+    },
+    {
+      "word": "Apathetic",
+      "pronunciation": "/ˌæp.əˈθet.ɪk/",
+      "correct_definition": "Showing little or no interest or emotion",
+      "incorrect_options": [
+        "Always energetic and lively",
+        "Easily angered and aggressive",
+        "Overly curious about everything"
+      ]
+    },
+    {
+      "word": "Perplexed",
+      "pronunciation": "/pərˈplekst/",
+      "correct_definition": "Confused or puzzled by something",
+      "incorrect_options": [
+        "Very sure and confident",
+        "Focused and determined",
+        "Easily entertained"
+      ]
+    },
+    {
+      "word": "Scrutinize",
+      "pronunciation": "/ˈskruː.tɪ.naɪz/",
+      "correct_definition": "To examine something very carefully",
+      "incorrect_options": [
+        "To ignore something completely",
+        "To describe something briefly",
+        "To accept something without question"
+      ]
+    },
+    {
+      "word": "Candid",
+      "pronunciation": "/ˈkæn.dɪd/",
+      "correct_definition": "Truthful and straightforward",
+      "incorrect_options": [
+        "Careful not to offend anyone",
+        "Always joking or playful",
+        "Extremely shy and quiet"
+      ]
+    },
+    {
+      "word": "Voracious",
+      "pronunciation": "/vɔːˈreɪ.ʃəs/",
+      "correct_definition": "Having an eager appetite for something",
+      "incorrect_options": [
+        "Never interested in food or knowledge",
+        "Extremely slow to learn",
+        "Always tired and unmotivated"
+      ]
+    },
+    {
+      "word": "Eloquent",
+      "pronunciation": "/ˈel.ə.kwənt/",
+      "correct_definition": "Fluent and persuasive in speaking or writing",
+      "incorrect_options": [
+        "Speaking in a confusing way",
+        "Rarely talking in public",
+        "Using very simple and short words only"
+      ]
+    },
+    {
+      "word": "Inevitable",
+      "pronunciation": "/ɪˈnev.ɪ.tə.bəl/",
+      "correct_definition": "Certain to happen and unavoidable",
+      "incorrect_options": [
+        "Completely uncertain and doubtful",
+        "Very rare and unlikely",
+        "Easily prevented with effort"
+      ]
+    },
+    {
+      "word": "Tedious",
+      "pronunciation": "/ˈtiː.di.əs/",
+      "correct_definition": "Too long, slow, or boring",
+      "incorrect_options": [
+        "Very exciting and fun",
+        "Short and surprising",
+        "Extremely dangerous"
+      ]
+    },
+    {
+      "word": "Conspicuous",
+      "pronunciation": "/kənˈspɪk.ju.əs/",
+      "correct_definition": "Easily noticed or attracting attention",
+      "incorrect_options": [
+        "Hidden and difficult to see",
+        "Completely unimportant",
+        "Very rare and unique"
+      ]
+    },
+    {
+      "word": "Ameliorate",
+      "pronunciation": "/əˈmiːl.jə.reɪt/",
+      "correct_definition": "To make something better or improve",
+      "incorrect_options": [
+        "To make something worse",
+        "To destroy something completely",
+        "To ignore a serious issue"
+      ]
+    },
+    {
+      "word": "Impeccable",
+      "pronunciation": "/ɪmˈpek.ə.bəl/",
+      "correct_definition": "Perfect and without mistakes",
+      "incorrect_options": [
+        "Full of obvious errors",
+        "Not worth paying attention to",
+        "Difficult to notice or define"
+      ]
+    },
+    {
+      "word": "Disdain",
+      "pronunciation": "/dɪsˈdeɪn/",
+      "correct_definition": "A feeling of strong dislike or disrespect",
+      "incorrect_options": [
+        "A sense of admiration",
+        "A feeling of deep sadness",
+        "A strong sense of fear"
+      ]
+    },
+    {
+      "word": "Serendipity",
+      "pronunciation": "/ˌser.ənˈdɪp.ə.ti/",
+      "correct_definition": "The occurrence of good luck by chance",
+      "incorrect_options": [
+        "An unfortunate accident",
+        "A carefully planned success",
+        "A repeated failure"
+      ]
+    }
+  ]
+}

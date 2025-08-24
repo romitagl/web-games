@@ -1,0 +1,56 @@
+{
+  "category": "academic",
+  "difficulty": "medium",
+  "words": [
+    {
+      "word": "Analyze",
+      "pronunciation": "/ˈæn.əl.aɪz/",
+      "correct_definition": "To examine something carefully in detail",
+      "incorrect_options": [
+        "To ignore something completely",
+        "To remember something by chance",
+        "To quickly describe something"
+      ]
+    },
+    {
+      "word": "Theory",
+      "pronunciation": "/ˈθɪə.ri/",
+      "correct_definition": "An explanation based on evidence and ideas",
+      "incorrect_options": [
+        "A fact proven without doubt",
+        "A rule that never changes",
+        "A short story or tale"
+      ]
+    },
+    {
+      "word": "Research",
+      "pronunciation": "/rɪˈsɜːtʃ/",
+      "correct_definition": "A detailed study to discover new information",
+      "incorrect_options": [
+        "A casual opinion",
+        "A fun hobby or activity",
+        "A short daily routine"
+      ]
+    },
+    {
+      "word": "Summarize",
+      "pronunciation": "/ˈsʌm.ə.raɪz/",
+      "correct_definition": "To express the main points briefly",
+      "incorrect_options": [
+        "To copy something word for word",
+        "To explain in too much detail",
+        "To write in another language"
+      ]
+    },
+    {
+      "word": "Evidence",
+      "pronunciation": "/ˈev.ɪ.dəns/",
+      "correct_definition": "Facts that support an idea or argument",
+      "incorrect_options": [
+        "Opinions that people share",
+        "Stories told by friends",
+        "Random guesses and feelings"
+      ]
+    }
+  ]
+}
