@@ -31,12 +31,18 @@ jobs:
         run: |
           # word association challenge
           TARGET_DIR="$DEPLOY_DIR/word-association-challenge"
-          mkdir -p $TARGET_DIR
+
+          # ensure full path is created
+          mkdir -p "$TARGET_DIR"
+
+          # go into source folder
           cd word-association-challenge
-          cp *.html $TARGET_DIR/
-          cp -r css $TARGET_DIR/
-          cp -r data $TARGET_DIR/
-          cp -r js $TARGET_DIR/
+
+          # copy assets into dist
+          cp *.html "$TARGET_DIR/"
+          cp -r css "$TARGET_DIR/"
+          cp -r data "$TARGET_DIR/"
+          cp -r js "$TARGET_DIR/"
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
