@@ -19,7 +19,6 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       DEPLOY_DIR: dist
-
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -29,20 +28,45 @@ jobs:
 
       - name: Create deployment directory 📁
         run: |
-          # word association challenge
+          # Create the main deployment directory
+          mkdir -p "$DEPLOY_DIR"
+          
+          # Set target directory for word association challenge
           TARGET_DIR="$DEPLOY_DIR/word-association-challenge"
-
-          # ensure full path is created
+          
+          # Create the full target directory structure
           mkdir -p "$TARGET_DIR"
-
-          # go into source folder
-          cd word-association-challenge
-
-          # copy assets into dist
-          cp *.html "$TARGET_DIR/"
-          cp -r css "$TARGET_DIR/"
-          cp -r data "$TARGET_DIR/"
-          cp -r js "$TARGET_DIR/"
+          mkdir -p "$TARGET_DIR/css"
+          mkdir -p "$TARGET_DIR/data"
+          mkdir -p "$TARGET_DIR/js"
+          
+          # Verify source directory exists
+          if [ ! -d "word-association-challenge" ]; then
+            echo "Error: word-association-challenge directory not found!"
+            ls -la
+            exit 1
+          fi
+          
+          # Copy files from source to target
+          echo "Copying files..."
+          cp word-association-challenge/*.html "$TARGET_DIR/" || echo "No HTML files found"
+          
+          # Copy directories if they exist
+          if [ -d "word-association-challenge/css" ]; then
+            cp -r word-association-challenge/css/* "$TARGET_DIR/css/"
+          fi
+          
+          if [ -d "word-association-challenge/data" ]; then
+            cp -r word-association-challenge/data/* "$TARGET_DIR/data/"
+          fi
+          
+          if [ -d "word-association-challenge/js" ]; then
+            cp -r word-association-challenge/js/* "$TARGET_DIR/js/"
+          fi
+          
+          # List the deployed structure for verification
+          echo "Deployed structure:"
+          find "$DEPLOY_DIR" -type f
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
