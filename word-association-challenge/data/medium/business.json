@@ -1,0 +1,56 @@
+{
+  "category": "business",
+  "difficulty": "medium",
+  "words": [
+    {
+      "word": "Profit",
+      "pronunciation": "/ˈprɒf.ɪt/",
+      "correct_definition": "Money earned after expenses are paid",
+      "incorrect_options": [
+        "The total cost of something",
+        "Money borrowed from a bank",
+        "A fee for services"
+      ]
+    },
+    {
+      "word": "Contract",
+      "pronunciation": "/ˈkɒn.trækt/",
+      "correct_definition": "A written legal agreement",
+      "incorrect_options": [
+        "A casual conversation",
+        "An oral promise between friends",
+        "A company advertisement"
+      ]
+    },
+    {
+      "word": "Client",
+      "pronunciation": "/ˈklaɪ.ənt/",
+      "correct_definition": "A person who buys services from a business",
+      "incorrect_options": [
+        "An employee of a company",
+        "A person who gives speeches",
+        "A member of a sports team"
+      ]
+    },
+    {
+      "word": "Budget",
+      "pronunciation": "/ˈbʌdʒ.ɪt/",
+      "correct_definition": "A plan for how money will be spent",
+      "incorrect_options": [
+        "A list of business partners",
+        "A meeting agenda",
+        "A type of bank account"
+      ]
+    },
+    {
+      "word": "Deadline",
+      "pronunciation": "/ˈded.laɪn/",
+      "correct_definition": "The latest time something must be finished",
+      "incorrect_options": [
+        "The first day of work",
+        "A rule for employees",
+        "The location of an office"
+      ]
+    }
+  ]
+}

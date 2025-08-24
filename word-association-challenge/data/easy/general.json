@@ -1,0 +1,206 @@
+{
+  "category": "general",
+  "difficulty": "easy",
+  "words": [
+    {
+      "word": "Happy",
+      "pronunciation": "/ˈhæp.i/",
+      "correct_definition": "Feeling joy or pleasure",
+      "incorrect_options": [
+        "Feeling tired and sleepy",
+        "Feeling angry or upset",
+        "Feeling confused or lost"
+      ]
+    },
+    {
+      "word": "Brave",
+      "pronunciation": "/breɪv/",
+      "correct_definition": "Showing courage in dangerous situations",
+      "incorrect_options": [
+        "Being very tall and strong",
+        "Moving slowly and carefully",
+        "Eating food very quickly"
+      ]
+    },
+    {
+      "word": "Gentle",
+      "pronunciation": "/ˈdʒen.təl/",
+      "correct_definition": "Kind and careful in behavior",
+      "incorrect_options": [
+        "Very loud and noisy",
+        "Extremely fast moving",
+        "Difficult to understand"
+      ]
+    },
+    {
+      "word": "Clever",
+      "pronunciation": "/ˈklev.ər/",
+      "correct_definition": "Quick to understand and learn",
+      "incorrect_options": [
+        "Very slow in movement",
+        "Afraid of everything",
+        "Unable to see clearly"
+      ]
+    },
+    {
+      "word": "Honest",
+      "pronunciation": "/ˈɒn.ɪst/",
+      "correct_definition": "Always telling the truth",
+      "incorrect_options": [
+        "Always feeling sleepy",
+        "Never eating much food",
+        "Constantly making noise"
+      ]
+    },
+    {
+      "word": "Curious",
+      "pronunciation": "/ˈkjʊr.i.əs/",
+      "correct_definition": "Eager to learn or know something",
+      "incorrect_options": [
+        "Extremely tired all the time",
+        "Unable to hear sounds well",
+        "Afraid of bright lights"
+      ]
+    },
+    {
+      "word": "Patient",
+      "pronunciation": "/ˈpeɪ.ʃənt/",
+      "correct_definition": "Able to wait calmly for a long time",
+      "incorrect_options": [
+        "Always running very fast",
+        "Never sleeping at night",
+        "Eating only sweet foods"
+      ]
+    },
+    {
+      "word": "Generous",
+      "pronunciation": "/ˈdʒen.ər.əs/",
+      "correct_definition": "Willing to give and share with others",
+      "incorrect_options": [
+        "Always feeling very cold",
+        "Speaking in a loud voice",
+        "Moving in a clumsy way"
+      ]
+    },
+    {
+      "word": "Peaceful",
+      "pronunciation": "/ˈpis.fəl/",
+      "correct_definition": "Calm and free from conflict",
+      "incorrect_options": [
+        "Full of loud noises",
+        "Always in a hurry",
+        "Difficult to find"
+      ]
+    },
+    {
+      "word": "Friendly",
+      "pronunciation": "/ˈfrend.li/",
+      "correct_definition": "Kind and pleasant to others",
+      "incorrect_options": [
+        "Always feeling hungry",
+        "Unable to sit still",
+        "Afraid of water"
+      ]
+    },
+    {
+      "word": "Cheerful",
+      "pronunciation": "/ˈtʃɪr.fəl/",
+      "correct_definition": "Happy and showing good spirits",
+      "incorrect_options": [
+        "Always feeling sleepy",
+        "Moving very slowly",
+        "Unable to speak clearly"
+      ]
+    },
+    {
+      "word": "Polite",
+      "pronunciation": "/pəˈlaɪt/",
+      "correct_definition": "Having good manners and being respectful",
+      "incorrect_options": [
+        "Always wearing bright colors",
+        "Speaking very quietly",
+        "Walking in circles"
+      ]
+    },
+    {
+      "word": "Careful",
+      "pronunciation": "/ˈker.fəl/",
+      "correct_definition": "Paying close attention to avoid mistakes",
+      "incorrect_options": [
+        "Always feeling very hot",
+        "Unable to remember things",
+        "Eating only at night"
+      ]
+    },
+    {
+      "word": "Creative",
+      "pronunciation": "/kriˈeɪ.tɪv/",
+      "correct_definition": "Having original ideas and imagination",
+      "incorrect_options": [
+        "Always feeling dizzy",
+        "Unable to stand up straight",
+        "Afraid of small spaces"
+      ]
+    },
+    {
+      "word": "Helpful",
+      "pronunciation": "/ˈhelp.fəl/",
+      "correct_definition": "Ready to give assistance to others",
+      "incorrect_options": [
+        "Always making mistakes",
+        "Unable to see in daylight",
+        "Speaking only in whispers"
+      ]
+    },
+    {
+      "word": "Loyal",
+      "pronunciation": "/ˈlɔɪ.əl/",
+      "correct_definition": "Faithful and devoted to someone",
+      "incorrect_options": [
+        "Always feeling thirsty",
+        "Unable to walk properly",
+        "Afraid of loud sounds"
+      ]
+    },
+    {
+      "word": "Bright",
+      "pronunciation": "/braɪt/",
+      "correct_definition": "Intelligent and quick to learn",
+      "incorrect_options": [
+        "Always feeling cold",
+        "Unable to taste food",
+        "Moving in slow motion"
+      ]
+    },
+    {
+      "word": "Calm",
+      "pronunciation": "/kɑm/",
+      "correct_definition": "Not excited, nervous, or upset",
+      "incorrect_options": [
+        "Always jumping around",
+        "Unable to stop talking",
+        "Eating very messy food"
+      ]
+    },
+    {
+      "word": "Confident",
+      "pronunciation": "/ˈkɑn.fə.dənt/",
+      "correct_definition": "Feeling sure about your abilities",
+      "incorrect_options": [
+        "Always feeling dizzy",
+        "Unable to sit down",
+        "Afraid of bright colors"
+      ]
+    },
+    {
+      "word": "Energetic",
+      "pronunciation": "/ˌen.ərˈdʒet.ɪk/",
+      "correct_definition": "Full of energy and enthusiasm",
+      "incorrect_options": [
+        "Always feeling sleepy",
+        "Unable to make decisions",
+        "Afraid of open spaces"
+      ]
+    }
+  ]
+}

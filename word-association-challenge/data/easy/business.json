@@ -1,0 +1,56 @@
+{
+  "category": "business",
+  "difficulty": "easy",
+  "words": [
+    {
+      "word": "Boss",
+      "pronunciation": "/bɒs/",
+      "correct_definition": "A person in charge of workers",
+      "incorrect_options": [
+        "Someone who studies animals",
+        "A person who teaches children",
+        "Someone who builds houses"
+      ]
+    },
+    {
+      "word": "Job",
+      "pronunciation": "/dʒɒb/",
+      "correct_definition": "Work done to earn money",
+      "incorrect_options": [
+        "A kind of holiday",
+        "A type of sports activity",
+        "A family gathering"
+      ]
+    },
+    {
+      "word": "Meeting",
+      "pronunciation": "/ˈmiː.tɪŋ/",
+      "correct_definition": "A group of people discussing something",
+      "incorrect_options": [
+        "A festival with music",
+        "A place to buy food",
+        "A game played outdoors"
+      ]
+    },
+    {
+      "word": "Salary",
+      "pronunciation": "/ˈsæl.ər.i/",
+      "correct_definition": "Money paid to a worker regularly",
+      "incorrect_options": [
+        "A gift from a friend",
+        "A type of clothing",
+        "A school subject"
+      ]
+    },
+    {
+      "word": "Office",
+      "pronunciation": "/ˈɒf.ɪs/",
+      "correct_definition": "A place where people work at desks",
+      "incorrect_options": [
+        "A room for sleeping",
+        "A place for cooking food",
+        "A shop for books"
+      ]
+    }
+  ]
+}

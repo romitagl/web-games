@@ -1,0 +1,46 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DEPLOY_DIR: dist
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Create deployment directory 📁
+        run: |
+          # word association challenge
+          TARGET_DIR="$DEPLOY_DIR/word-association-challenge"
+          mkdir -p $TARGET_DIR
+          cd ${TARGET_DIR}
+          cp *.html $TARGET_DIR/
+          cp -r css $TARGET_DIR/
+          cp -r data $TARGET_DIR/
+          cp -r js $TARGET_DIR/
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: ${{ env.DEPLOY_DIR }}
+          force: true

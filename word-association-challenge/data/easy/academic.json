@@ -1,0 +1,56 @@
+{
+  "category": "academic",
+  "difficulty": "easy",
+  "words": [
+    {
+      "word": "Study",
+      "pronunciation": "/ˈstʌd.i/",
+      "correct_definition": "To learn about a subject by reading or practicing",
+      "incorrect_options": [
+        "To play games for fun",
+        "To travel to different places",
+        "To talk with friends"
+      ]
+    },
+    {
+      "word": "Teacher",
+      "pronunciation": "/ˈtiː.tʃər/",
+      "correct_definition": "A person who helps students learn",
+      "incorrect_options": [
+        "Someone who plays music",
+        "A person who cooks food",
+        "Someone who sells clothes"
+      ]
+    },
+    {
+      "word": "Exam",
+      "pronunciation": "/ɪɡˈzæm/",
+      "correct_definition": "A test of knowledge or ability",
+      "incorrect_options": [
+        "A type of game",
+        "A group discussion",
+        "A meal with friends"
+      ]
+    },
+    {
+      "word": "Library",
+      "pronunciation": "/ˈlaɪ.brər.i/",
+      "correct_definition": "A place with books to read or borrow",
+      "incorrect_options": [
+        "A shop that sells clothes",
+        "A room for sleeping",
+        "A place to eat meals"
+      ]
+    },
+    {
+      "word": "Homework",
+      "pronunciation": "/ˈhoʊm.wɜːk/",
+      "correct_definition": "Work given by a teacher to do at home",
+      "incorrect_options": [
+        "Chores around the house",
+        "Games played after school",
+        "Writing letters to friends"
+      ]
+    }
+  ]
+}
