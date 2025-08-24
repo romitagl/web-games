@@ -32,7 +32,7 @@ jobs:
           # word association challenge
           TARGET_DIR="$DEPLOY_DIR/word-association-challenge"
           mkdir -p $TARGET_DIR
-          cd ${TARGET_DIR}
+          cd word-association-challenge
           cp *.html $TARGET_DIR/
           cp -r css $TARGET_DIR/
           cp -r data $TARGET_DIR/
